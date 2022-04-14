@@ -210,7 +210,7 @@ jano.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha**");
         })
         .catch(console.log);
     } else {
@@ -6140,7 +6140,7 @@ jano200.on("ready", () => {
 
 //////////////// tokn lera da bne
 
-jano.login("");
+jano.login("OTY0MTQ4ODk1Nzc1MDk2ODgz.YlgeVw.4iQ7Y9FXwWMDhZUnIjkkIWEwR4k");
 jano2.login("");
 jano3.login("");
 jano4.login("");
